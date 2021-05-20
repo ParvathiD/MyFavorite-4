@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    height: 300px;
+}
+
+h1 {
+    font-size: 45px;
+    font-family: 'Girassol', cursive;
+    text-shadow: 2px 2px violet;
+}
+
+p {
+    font-size: 30px;
+    font-family: 'Texturina', serif;
+}
+
+#Welcome {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(#ffb5b0 33%, #e1bee7 82%);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+#About {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-image: linear-gradient(#b0f3ff 33%, #b1ffbc 82%);
+    background-repeat: no-repeat;
+    height: 800px;
+}
+.links {
+    float:right;
+    font-weight:bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    font-size: 25px;
+    }
+}
+.links:hover {
+    background-color: lightcyan;
+    text-decoration: underline;
+}
+.menu {
+    list-style: none;
+    position: absolute;
+    top: 10px;
+    z-index: 10;
+    cursor: pointer;
+    margin-top: 0px;
+    width: 100%;
+    margin-right: 10px;
+}
+.menu a:hover{
+      background-color: lightcoral;
+  color: firebrick;
+}
+.menu a{
+    color: black;
+    font-family: cursive;
+}
+#Herm1{
+    padding-right: 50px;
+}
+#Herm2{
+    padding-left: 50px;
+}
+#Reviews {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightcyan;
+}
+html {
+    scroll-behavior: smooth;
+}
+#Work {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lightgoldenrodyellow;
+}
+#BotDesign{
+    width: 1800px;
+    height: 200px;
+}
+#JKR {
+    transition: transform .2s;
+    border: 10px, solid;
+    border-radius: 2%;
+}
+#JKR:hover {
+    transform: scale(0.9);
+}
+#Inspo {
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: lavenderblush;
+}
